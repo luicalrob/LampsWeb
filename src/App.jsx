@@ -1,21 +1,22 @@
 import React from 'react';
-import { Header } from './components/Header';
-import { Hero } from './components/Hero';
-import { Services } from './components/Services';
-import { Team } from './components/Team';
+import { Header } from './components/sections/Header';
+import { Services } from './components/sections/Services';
+import { Team } from './components/sections/Team';
+import { Skills } from './components/sections/Skills';
 
-import './styles/main.css';
+import './styles/style.css';
 import './styles/resources/responsive.css';
 import './styles/vendors/normalize.css';
 import './styles/vendors/grid.css';
+import './styles/vendors/animated-circle.css';
 
 export function App() {
   return (
     <>
       <Header />
-      <Hero />
       <Services />
       <Team />
+      <Skills />
     </>
   );
 }

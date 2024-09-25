@@ -1,9 +1,9 @@
 // src/components/Services.jsx
 import React from 'react';
-import flagIcon from '../assets/images/flag.png';
-import crayonIcon from '../assets/images/crayon.png';
-import gearsIcon from '../assets/images/gears.png';
-import rocketIcon from '../assets/images/rocket.png';
+import flagIcon from '../../assets/images/flag.png';
+import crayonIcon from '../../assets/images/crayon.png';
+import gearsIcon from '../../assets/images/gears.png';
+import rocketIcon from '../../assets/images/rocket.png';
 
 export function Services() {
   return (

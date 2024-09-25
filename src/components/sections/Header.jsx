@@ -1,6 +1,7 @@
 // src/components/Header.jsx
 import React from 'react';
-import logo from '../assets/images/logo.png';
+import logo from '../../assets/images/logo.png';
+import { Hero } from './Hero';
 
 export function Header() {
   return (
@@ -20,6 +21,7 @@ export function Header() {
           </ul>
         </div>
       </nav>
+      <Hero />
     </header>
   );
 }
