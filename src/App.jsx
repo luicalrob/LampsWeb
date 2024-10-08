@@ -3,6 +3,10 @@ import { Header } from './components/sections/Header';
 import { Services } from './components/sections/Services';
 import { Team } from './components/sections/Team';
 import { Skills } from './components/sections/Skills';
+import { Portfolio } from './components/sections/Portfolio';
+import { Testimonials } from './components/sections/Testimonials';
+import { Contact } from './components/sections/Contact';
+import { Footer } from './components/sections/Footer';
 
 import './styles/style.css';
 import './styles/resources/responsive.css';
@@ -17,6 +21,10 @@ export function App() {
       <Services />
       <Team />
       <Skills />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </>
   );
 }

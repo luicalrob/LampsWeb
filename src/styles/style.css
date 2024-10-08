@@ -344,32 +344,6 @@ header {
 .skill-section .box{
     margin-top: 4.5rem;
 }
-
-svg.radial-progress circle{
-    stroke-width: 5;
-}
-
-svg.radial-progress text{
-    fill: #393939;
-    font-size: 1.5rem;
-}
-
-svg.web-design circle{
-    stroke: #30bae7;
-}
-
-svg.html-css circle{
-    stroke: #d74680;
-}
-
-svg.graphics-design circle{
-    stroke: #15c7a8;
-}
-
-svg.ui-ux circle{
-    stroke: #eb7d4b;
-}
-
 /*=====================================*/
 /* Portfolio Section*/
 /*=====================================*/
@@ -429,6 +403,17 @@ svg.ui-ux circle{
 
 .portfolio-section .mixitup-control-active{
     background: #fff;
+}
+
+.portfolio-image {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    transform: scale(0.95);
+}
+
+.portfolio-image.visible {
+    opacity: 1;
+    transform: scale(1);
 }
 
 /*=====================================*/

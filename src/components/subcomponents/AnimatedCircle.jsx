@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import $ from 'jquery'; // Import jQuery
 
-export const AnimatedCircle = ({}) => {
+export const AnimatedCircle = ({ type, percentage }) => {
 
   useEffect(() => {
     // Your animated circle logic using jQuery
@@ -39,10 +39,10 @@ export const AnimatedCircle = ({}) => {
   return (
     <>
       {/* {circles.map((circle, index) => ( */}
-        <svg className={`radial-progress web-designer`} data-percentage='90' viewBox="0 0 80 80">
+        <svg className={`radial-progress ${type}`} data-percentage='90' viewBox="0 0 80 80">
           <circle className="incomplete" cx="40" cy="40" r="35"></circle>
           <circle className="complete" cx="40" cy="40" r="35" style={{ strokeDashoffset: 2 * Math.PI * 35 * (1 - 90 / 100) }}></circle>
-          <text className="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+          <text className="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">{percentage}%</text>
         </svg>
       {/* ))} */}
     </>

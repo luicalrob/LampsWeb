@@ -12,19 +12,19 @@ export function Skills() {
       </div>
       <div className="row">
         <div className="col span_1_of_4 box">
-          <AnimatedCircle circles={[{ className: 'web-design', percentage: 90 }]} />
+          <AnimatedCircle  type="web-design" percentage={90} />
           <h3>Web Design</h3>
         </div>
         <div className="col span_1_of_4 box">
-          <AnimatedCircle circles={[{ className: 'html-css', percentage: 85 }]} />
+          <AnimatedCircle type="html-css" percentage={85} />
           <h3>HTML / CSS</h3>
         </div>
         <div className="col span_1_of_4 box">
-          <AnimatedCircle circles={[{ className: 'graphics-design', percentage: 75 }]} />
+          <AnimatedCircle type="graphics-design" percentage={75} />
           <h3>Graphics Design</h3>
         </div>
         <div className="col span_1_of_4 box">
-          <AnimatedCircle circles={[{ className: 'ui-ux', percentage: 80 }]} />
+          <AnimatedCircle type="ui-ux" percentage={80} />
           <h3>UI / UX</h3>
         </div>
       </div>

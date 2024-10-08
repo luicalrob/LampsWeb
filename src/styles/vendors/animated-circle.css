@@ -17,7 +17,28 @@ svg.radial-progress {
   
   svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; }
   
-  svg.radial-progress text {
-    fill: #fff;
-    text-anchor: middle;
+  svg.radial-progress circle{
+      stroke-width: 5;
+  }
+
+  svg.radial-progress text{
+      fill: #393939;
+      font-size: 1.5rem;
+      text-anchor: middle;
+  }
+  
+  svg.web-design circle{
+      stroke: #30bae7;
+  }
+
+  svg.html-css circle{
+      stroke: #d74680;
+  }
+
+  svg.graphics-design circle{
+      stroke: #15c7a8;
+  }
+
+  svg.ui-ux circle{
+      stroke: #eb7d4b;
   }
